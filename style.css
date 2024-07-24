@@ -13,7 +13,7 @@ body {
 .header-container-row {
     display: flex;
     justify-content: space-evenly;
-    padding: 16px 0;
+    padding: 16px 16px;
 }
 
 .header-container-column {

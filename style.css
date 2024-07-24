@@ -162,3 +162,40 @@ button {
     font-weight: 900;
     margin: 0;
 }
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 128px;
+}
+
+.sign-up-box {
+    flex: auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+    background-color: #3882F6;
+    padding: 48px 96px;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.sign-up-text .big {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sign-up-box button {
+    flex: none;
+    border-style: solid;
+    border-color: #F9FAF8;
+}
